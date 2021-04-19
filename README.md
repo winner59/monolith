@@ -14,7 +14,7 @@ http http://localhost:8088/deliveries
 http http://localhost:8088/orders/1/delivery  
 
 -- 배송 완료하기  
-http PATCH localhost:8088/deliveries/1 deliveryState=DeliveryCompleted
+http PATCH localhost:8088/deliveries/1 deliveryState=DeliveryCompleted  
 
 
 -- 주문 취소 하기
